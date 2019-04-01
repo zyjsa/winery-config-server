@@ -1,0 +1,14 @@
+﻿spring:
+  profiles: 
+    active:
+     -dev
+---
+spring:
+  profiles: dev
+  application:
+    name:winery-config-dev
+---
+spring:
+  profiles: dev
+  application:
+    name:winery-config-test
