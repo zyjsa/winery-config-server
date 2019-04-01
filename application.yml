@@ -9,6 +9,6 @@ spring:
     name:winery-config-dev
 ---
 spring:
-  profiles: dev
+  profiles: test
   application:
     name:winery-config-test
